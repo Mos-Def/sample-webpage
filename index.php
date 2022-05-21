@@ -45,13 +45,19 @@
              <li><a href="yetanotherpage.com">Link 3</a></li>
            </ul>
              <footer>
-               <form action="/action_page.php" method="get">
+                <p><b>SEND E-MAIL</b></p>
+                <form class="contact-form" action="contactform.php" method="post">
+                  <input type="text" name="name" placeholder="Full name">
+                  <input type="text" name="mail" placeholder="Your e-mail">
+                  <input type="text" name="subject" placeholder="Subject">
+                  <textarea name="message" placeholder="message"></textarea> 
+                  <button type="submit" name="submit">SEND MAIL</button>
                    <label for="fname">Subscribe to weekly email!:</label>
                      <input type="text" id="fname" name="fname"><br><br>
                    <label for="lname">Have a question? Ask me!:</label>
                      <input type="text" id="lname" name="lname"><br><br>
                    <input type="submit" value="Submit">
-               </form> 
+                </form> 
                  <address>Contact info
                  Social media info</address>
                  <cite>samplecite</cite>
