@@ -2,33 +2,31 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"
+    <link href="stylesheet.css" type="text/css" rel="stylesheet"
     title="normal" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Page</title>
   </head>
     <body>
-      <header>
-       <div class="header">
-         <h1><b>Header</b></h1>
-       </div>
-         <nav>
-           <div class="topnav">
-           <div style="border :1px solid black;" >
-             <a href="#">Home</a>
-             <a href="#">About us</a>
-             <a href="#">Contact</a>
-           </div> 
-           </div>
-         </nav>
-         <img src="img/company-logo.png" alt="Company logo" class="logo" style="max-width:100%;height:auto;"> 
+     <header>
+       <h1>Sample</h1>
+       <img src="path/to/your/logo/here" alt="Company logo" class="logo">
+        <div>
+          <label>Home</label>
+            <button type="button">Page</button>
+        </div>
+        <div>
+          <label>Blog</label>
+            <button type="button">Page</button>
+        </div>
+        <div>
+          <label>About us</label>
+            <button type="button">Company</button>
+        </div>
       </header>
-         <aside>
-           <h3>Testimony</h3><blockquote><em>"Random thing said about your business"</em></blockquote>
-          </aside>
-             <main>
-               <h2>Welcome</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget auctor arcu. Et
+          <main>
+            <h2>Welcome</h2>
+            <h3>Testimony</h3><blockquote>"Random thing said about your business"</blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget auctor arcu. Et
               iam interdum nulla vel aliquet venenatis. Phasellus nec mi turpis. Phasellus enim sapien, egestas eu volutpat et, porttitor a mi. 
               Curabitur a augue dignissim, lacinia orci vitae, gravida nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
               Quisque congue felis quis vehicula elementum. Quisque erat nisi, interdum nec felis at, dignissim pulvinar dolor. 
@@ -47,21 +45,24 @@
              <li><a href="yetanotherpage.com">Link 3</a></li>
            </ul>
              <footer>
-                  <p><b>SEND E-MAIL</b></p>
-                 <div style="border :1px solid black;">
-                 <form class="contact-form" action="php/contactform.php" method="post">
-                   <input type="text" name="name" placeholder="Full name">
-                   <input type="text" name="mail" placeholder="Your e-mail">
-                   <input type="text" name="subject" placeholder="Subject">
-                   <textarea name="message" placeholder="message"></textarea> 
+                <p><b>SEND E-MAIL</b></p>
+                <form class="contact-form" action="contactform.php" method="post">
+                  <input type="text" name="name" placeholder="Full name">
+                  <input type="text" name="mail" placeholder="Your e-mail">
+                  <input type="text" name="subject" placeholder="Subject">
+                  <textarea name="message" placeholder="message"></textarea> 
                   <button type="submit" name="submit">SEND MAIL</button>
-                  </form>
-                  </div>
-                  <div style="border :1px solid-black;">
-                   <small><address>Contact info
+                   <label for="fname">Subscribe to weekly email!:</label>
+                     <input type="text" id="fname" name="fname"><br><br>
+                   <label for="lname">Have a question? Ask me!:</label>
+                     <input type="text" id="lname" name="lname"><br><br>
+                   <input type="submit" value="Submit">
+                </form> 
+                 <address>Contact info
                  Social media info</address>
-                <cite>samplecite</cite></small>
-               </div>
+                 <cite>samplecite</cite>
              </footer>
-    </body>
+        
+          
+     </body>
 </html>

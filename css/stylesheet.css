@@ -1,0 +1,44 @@
+b {
+    background-color: gray;
+    color: blue;
+}
+
+h1 {
+    background-color: gray;
+    color: blue;
+    text-align: left;
+    text-decoration: underline dotted blue 5px;
+}
+
+h2 {
+    background-color: gray;
+    color: blue; 
+    text-align: center;
+}
+
+h3 {
+    background-color: white;
+    color: blue; 
+    text-align: right;
+}
+
+aside {
+      background-color: #F1F1F1;
+      text-align: right;
+      padding: 20px;
+}
+
+.menu {
+    border-style: double;
+}
+
+.logo {
+    width: 300px;
+    height: 200px;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
