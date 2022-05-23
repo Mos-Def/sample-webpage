@@ -12,17 +12,12 @@ h2 {
 /*-------------------HEADER SECTION----------------------*/
 .header {
   background-color: #F1F1F1;
+  color: blue;
   text-align: center;
   padding: 20px;
+  text-decoration: underline dotted blue 5px;
 }
-/*--------------------------------------------------------*/
-
-h1 {                                           
-    background-color: gray;
-    color: blue;
-    text-align: left;
-    text-decoration: underline dotted blue 5px;
-}
+/*--------------------------------------------------------*
 
 h3 {
     background-color: white;
