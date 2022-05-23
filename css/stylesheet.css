@@ -1,11 +1,4 @@
 /*---------------------------------------------------*/
-/*HEADER #1
-h1 {                                           
-    background-color: gray;
-    color: blue;
-    text-align: left;
-    text-decoration: underline dotted blue 5px;
-}*/
 
 /*HEADER #2
 h2 {
@@ -16,18 +9,6 @@ h2 {
 
 /*------------------------------------------------------*/
 
-.aside {
-    
-}
-
-
-h3 {
-    background-color: white;
-    color: blue; 
-    text-align: right;
-}
-
-
 /*-------------------HEADER SECTION----------------------*/
 .header {
   background-color: #F1F1F1;
@@ -36,11 +17,29 @@ h3 {
 }
 /*--------------------------------------------------------*/
 
+h1 {                                           
+    background-color: gray;
+    color: blue;
+    text-align: left;
+    text-decoration: underline dotted blue 5px;
+}
+
+h3 {
+    background-color: white;
+    color: blue; 
+    text-align: right;
+}
+
+
+
 .topnav { 
     overflow: hidden;
 }
 
+.aside {
+    
 
+}
 
 /*---------------------BODY--------------------------------*/
 b {
