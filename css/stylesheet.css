@@ -18,6 +18,15 @@ h2 {
   text-decoration: underline dotted blue 5px;
 }
 
+h1 {
+    background-color: #F1F1F1;
+    color: blue;
+    text-align: left;
+    padding: 20px;
+   text-decoration: underline dotted blue 5px;
+    
+}
+
 
 .topnav { 
     overflow: hidden;
