@@ -1,117 +1,60 @@
-b {
-    background-color: gray;
-    color: blue;
-}
-
+/*HEADER #1
 h1 {
     background-color: gray;
     color: blue;
     text-align: left;
     text-decoration: underline dotted blue 5px;
-}
+}*/
 
+/*HEADER #2
 h2 {
     background-color: gray;
     color: blue; 
     text-align: center;
-}
+}*/
 
+/*HEADER #3
 h3 {
     background-color: white;
     color: blue; 
     text-align: right;
-}
+} */
 
-aside {
-      background-color: #F1F1F1;
-      text-align: right;
-      padding: 20px;
-}
-
-.menu {
-    border-style: double;
-}
-
-.logo {
-    width: 300px;
-    height: 200px;
-}
-
+/*-------------------HEADER SECTION----------------------*/
 .header {
   background-color: #F1F1F1;
   text-align: center;
   padding: 20px;
 }
+
+/*---------------------BODY--------------------------------*/
 b {
-
     background-color: gray;
-
     color: blue;
-
 }
 
-h1 {
-
-    background-color: gray;
-
-    color: blue;
-
-    text-align: left;
-
-    text-decoration: underline dotted blue 5px;
-
-}
-
-h2 {
-
-    background-color: gray;
-
-    color: blue; 
-
-    text-align: center;
-
-}
-
-h3 {
-
-    background-color: white;
-
-    color: blue; 
-
-    text-align: right;
-
-}
-
+/*SIDE CONTENT*/
 aside {
-
       background-color: #F1F1F1;
-
       text-align: right;
-
       padding: 20px;
 
 }
 
+/*CONTACT MENU*/
 .menu {
-
     border-style: double;
-
 }
 
+/*COMPANY LOGO*/
 .logo {
-
     width: 300px;
-
     height: 200px;
-
 }
 
+/*HEADER*/
 .header {
-
   background-color: #F1F1F1;
-
   text-align: center;
-
   padding: 20px;
-
 }
