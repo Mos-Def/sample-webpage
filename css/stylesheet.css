@@ -17,20 +17,23 @@ h2 {
 }
 /*--------------------------------------------------------*/
 
+html {
+    background-color: white;
+}
 
 
 /*-------------------HEADER SECTION----------------------*/
 .header {
-  background-color: #F1F1F1;
-  color: blue;
+  background-color: darkblue;
+  color: white;
   text-align: left;
   padding: 20px;
   text-decoration: underline dotted blue 5px;
 }
 
 h1 {
-    background-color: #F1F1F1;
-    color: blue;
+    background-color: darkblue;
+    color: white;
     text-align: left;
     padding: 20px;
    text-decoration: underline dotted blue 5px;
@@ -39,24 +42,24 @@ h1 {
 
 
 .topnav { 
-    background-color: gray;
+    background-color: white;
     overflow: hidden;
     text-align: center;
 }
 
 h4 {
-    background-color: gray;
-    
+    background-color: darkblue;
+    color: white;
 }
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: gray;
+    background-color: white;
    
 }
 
 background {
-    background-color: darkgray;
+    background-color: white;
 }
 /*----------------------------------------------------------*/
 
@@ -66,7 +69,8 @@ background {
 
 /*------------------SIDE CONTENT----------------------------*/
 aside {
-      background-color: #F1F1F1;
+      background-color: darkblue;
+      color: white;
       text-align: center;
       padding: 20px;
       border-style: solid;
@@ -82,7 +86,7 @@ aside {
 }
 
 .contactform { 
-    background-color: white;
+    background-color: gray;
 }
 /*--------------------------------------------------------*/
 
