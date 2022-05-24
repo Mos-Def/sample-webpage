@@ -44,10 +44,19 @@ h1 {
     text-align: center;
 }
 
+h4 {
+    background-color: gray;
+    
+}
 
 /*---------------------BODY--------------------------------*/
 b {
     background-color: gray;
+   
+}
+
+background {
+    background-color: darkgray;
 }
 /*----------------------------------------------------------*/
 
@@ -73,7 +82,7 @@ aside {
 }
 
 .contactform { 
-    background-color: black;
+    background-color: white;
 }
 /*--------------------------------------------------------*/
 
