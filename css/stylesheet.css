@@ -14,7 +14,7 @@ html {
 /*-------------------HEADER SECTION----------------------*/
 .header {
   background-color: darkblue;
-  color: white;
+  color: black;
   text-align: left;
   padding: 20px;
   text-decoration: underline dotted blue 5px;
@@ -22,16 +22,15 @@ html {
 
 h1 {
     background-color: darkblue;
-    color: white;
+    color: black;
     text-align: left;
-    padding: 20px;
-   text-decoration: underline dotted blue 5px;
+    text-decoration: underline dotted black 5px;
     
 }
 
 
 h2 {
-    background-color: blue;
+    background-color: darkblue;
     color: white; 
     text-align: center;
 }
