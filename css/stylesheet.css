@@ -48,7 +48,8 @@ h4 {
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: white;
+    background-color: darkblue;
+    color: white;
    
 }
 
@@ -80,7 +81,7 @@ aside {
 }
 
 .contactform { 
-    background-color: gray;
+    background-color: darkblue;
 }
 /*--------------------------------------------------------*/
 
