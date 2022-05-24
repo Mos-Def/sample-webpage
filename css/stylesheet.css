@@ -9,6 +9,16 @@ h2 {
 
 /*------------------------------------------------------*/
 
+
+/*----------------COMPANY LOGO-----------------------------*/
+.logo {
+    width: 300px;
+    height: 200px;
+}
+/*--------------------------------------------------------*/
+
+
+
 /*-------------------HEADER SECTION----------------------*/
 .header {
   background-color: #F1F1F1;
@@ -29,7 +39,9 @@ h1 {
 
 
 .topnav { 
+    background-color: gray;
     overflow: hidden;
+    text-align: center;
 }
 
 
@@ -47,7 +59,7 @@ b {
 /*------------------SIDE CONTENT----------------------------*/
 aside {
       background-color: #F1F1F1;
-      text-align: right;
+      text-align: center;
       padding: 20px;
       border-style: solid;
 
@@ -56,24 +68,16 @@ aside {
 
 
 
-
-
-
 /*---------------------CONTACT MENU-------------------------*/
 .menu {
     border-style: double;
 }
-/*--------------------------------------------------------*/
 
-
-
-
-
-/*----------------COMPANY LOGO-----------------------------*/
-.logo {
-    width: 300px;
-    height: 200px;
+.contactform { 
+    background-color: black;
 }
 /*--------------------------------------------------------*/
+
+
 
 
