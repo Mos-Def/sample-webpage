@@ -1,7 +1,7 @@
 
 /*----------------COMPANY LOGO-----------------------------*/
 .logo {
-    width: 300px;
+    width: 500px;
     height: 200px;
 }
 /*--------------------------------------------------------*/
@@ -14,46 +14,53 @@ html {
 /*-------------------HEADER SECTION----------------------*/
 .header {
   background-color: darkred;
-  color: tan;
+  color: white;
   text-align: left;
   padding: 20px;
-  text-decoration: underline dotted tan 5px;
+  text-decoration: underline solid white 5px;
 }
 
 h1 {
     background-color: darkred;
-    color: tan;
+    color: white;
     text-align: left;
-    text-decoration: underline dotted tan 5px;
     
 }
 
 
 h2 {
     background-color: darkred;
-    color: tan; 
-    text-align: center;
+    color: white; 
+    text-align: left;
+    width: 200px;
 }
 
 .topnav { 
-    background-color: tan;
+    background-color: darkred;
     overflow: hidden;
-    text-align: center;
-    color: darkred;
+    text-align: left;
+    color: white;
+    width: 400px;
 }
 a { 
-    color: darkred;
+    color: white;
 }
 
+article { 
+    text-align: left;
+    width: 400px;
+}
 h4 {
     background-color: darkred;
     color: white;
+    text-align: left;
+    width: 400px;
 }
 
 /*---------------------BODY--------------------------------*/
 b {
     background-color: darkred;
-    color: tan;
+    color: white;
    
 }
 
@@ -69,9 +76,9 @@ background {
 /*------------------SIDE CONTENT----------------------------*/
 aside {
       background-color: darkred;
-      color: tan;
-      text-align: center;
-      padding: 20px;
+      color: white;
+      text-align: left;
+      width: 200px;
       border-style: solid;
 
 }
