@@ -7,54 +7,58 @@
 /*--------------------------------------------------------*/
 
 html {
-    background-color: white;
+    background-color: tan;
 }
 
 
 /*-------------------HEADER SECTION----------------------*/
 .header {
-  background-color: darkblue;
-  color: black;
+  background-color: darkred;
+  color: tan;
   text-align: left;
   padding: 20px;
-  text-decoration: underline dotted blue 5px;
+  text-decoration: underline dotted tan 5px;
 }
 
 h1 {
-    background-color: darkblue;
-    color: black;
+    background-color: darkred;
+    color: tan;
     text-align: left;
-    text-decoration: underline dotted black 5px;
+    text-decoration: underline dotted tan 5px;
     
 }
 
 
 h2 {
-    background-color: darkblue;
-    color: white; 
+    background-color: darkred;
+    color: tan; 
     text-align: center;
 }
 
 .topnav { 
-    background-color: white;
+    background-color: tan;
     overflow: hidden;
     text-align: center;
+    color: darkred;
+}
+a { 
+    color: darkred;
 }
 
 h4 {
-    background-color: darkblue;
+    background-color: darkred;
     color: white;
 }
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: darkblue;
-    color: white;
+    background-color: darkred;
+    color: tan;
    
 }
 
 background {
-    background-color: white;
+    background-color: red;
 }
 /*----------------------------------------------------------*/
 
@@ -64,8 +68,8 @@ background {
 
 /*------------------SIDE CONTENT----------------------------*/
 aside {
-      background-color: darkblue;
-      color: white;
+      background-color: darkred;
+      color: tan;
       text-align: center;
       padding: 20px;
       border-style: solid;
@@ -81,7 +85,7 @@ aside {
 }
 
 .contactform { 
-    background-color: darkblue;
+    background-color: darkred;
 }
 /*--------------------------------------------------------*/
 
