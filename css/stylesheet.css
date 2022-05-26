@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-    background-color: gray;
+    background-color: black;
     color: white;
     text-align: left;
     
@@ -29,7 +29,7 @@ h1 {
 
 
 h2 {
-    background-color: gray;
+    background-color: black;
     color: white; 
     text-align: left;
     width: 200px;
@@ -51,7 +51,7 @@ article {
     width: 400px;
 }
 h4 {
-    background-color: gray;
+    background-color: black
     color: white;
     text-align: left;
     width: 400px;
@@ -59,7 +59,7 @@ h4 {
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: gray;
+    background-color: black
     color: white;
    
 }
@@ -75,7 +75,7 @@ background {
 
 /*------------------SIDE CONTENT----------------------------*/
 aside {
-      background-color: darkred;
+      background-color: black
       color: white;
       text-align: left;
       width: 200px;
