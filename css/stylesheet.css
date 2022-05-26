@@ -18,7 +18,7 @@ html {
 .logo {
     width: 200px;
     height: 200px;
-    float: right;
+    float: left;
 }
 
 /*---H1,H2,H3,H4,H5,H6---*/
@@ -49,12 +49,20 @@ h4 {
     overflow: hidden;
     text-align: left;
     color: white;
-    width: 400px;
+    width: 150px;
+    float: right;
 }
 
 /*---Anchor(Links)---*/
-a { 
+.navlink { 
     color: white;
+
+    border: solid white 1px
+}
+
+a { 
+    color: blue;
+    
 }
 
 /*---------------------BODY--------------------------------*/
