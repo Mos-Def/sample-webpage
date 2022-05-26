@@ -1,5 +1,5 @@
 html {
-    background-color: tan;
+    background-color: white;
 }
 
 
@@ -7,7 +7,7 @@ html {
 
 /*---Head---*/
 .header {
-  background-color: darkred;
+  background-color: black;
   color: white;
   text-align: left;
   padding: 20px;
@@ -16,27 +16,28 @@ html {
 
 /*---Logo--*/
 .logo {
-    width: 500px;
+    width: 200px;
     height: 200px;
+    float: right;
 }
 
 /*---H1,H2,H3,H4,H5,H6---*/
 h1 {
-    background-color: darkred;
+    background-color: black;
     color: white;
     text-align: left;
     
 }
 
 h2 {
-    background-color: darkred;
+    background-color: black;
     color: white; 
     text-align: left;
     width: 200px;
 }
 
 h4 {
-    background-color: darkred;
+    background-color: black;
     color: white;
     text-align: left;
     width: 400px;
@@ -44,7 +45,7 @@ h4 {
 
 /*----Navigation---*/
 .topnav { 
-    background-color: darkred;
+    background-color: black;
     overflow: hidden;
     text-align: left;
     color: white;
@@ -58,7 +59,7 @@ a {
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: darkred;
+    background-color: black;
     color: white;
    
 }
@@ -69,11 +70,12 @@ article {
 }
 
 aside {
-      background-color: darkred;
+      background-color: black;
       color: white;
       text-align: left;
       width: 200px;
       border-style: solid;
+      float: left;
 }
 
 background {
@@ -86,7 +88,7 @@ background {
 }
 
 .contactform { 
-    background-color: darkred;
+    background-color: black;
 }
 
 
