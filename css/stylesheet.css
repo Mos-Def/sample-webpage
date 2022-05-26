@@ -1,90 +1,84 @@
-
-/*----------------COMPANY LOGO-----------------------------*/
-.logo {
-    width: 500px;
-    height: 200px;
-}
-/*--------------------------------------------------------*/
-
 html {
-    background-color: white;
+    background-color: tan;
 }
 
 
 /*-------------------HEADER SECTION----------------------*/
+
+/*---Head---*/
 .header {
-  background-color: black;
+  background-color: darkred;
   color: white;
   text-align: left;
   padding: 20px;
   text-decoration: underline solid white 5px;
 }
 
+/*---Logo--*/
+.logo {
+    width: 500px;
+    height: 200px;
+}
+
+/*---H1,H2,H3,H4,H5,H6---*/
 h1 {
-    background-color: black;
+    background-color: darkred;
     color: white;
     text-align: left;
     
 }
 
-
 h2 {
-    background-color: black;
+    background-color: darkred;
     color: white; 
     text-align: left;
     width: 200px;
 }
 
+h4 {
+    background-color: darkred;
+    color: white;
+    text-align: left;
+    width: 400px;
+}
+
+/*----Navigation---*/
 .topnav { 
-    background-color: black;
+    background-color: darkred;
     overflow: hidden;
     text-align: left;
     color: white;
     width: 400px;
 }
+
+/*---Anchor(Links)---*/
 a { 
     color: white;
+}
+
+/*---------------------BODY--------------------------------*/
+b {
+    background-color: darkred;
+    color: white;
+   
 }
 
 article { 
     text-align: left;
     width: 400px;
 }
-h4 {
-    background-color: black
-    color: white;
-    text-align: left;
-    width: 400px;
-}
 
-/*---------------------BODY--------------------------------*/
-b {
-    background-color: black
-    color: white;
-   
-}
-
-background {
-    background-color: gray;
-}
-/*----------------------------------------------------------*/
-
-
-
-
-
-/*------------------SIDE CONTENT----------------------------*/
 aside {
-      background-color: black
+      background-color: darkred;
       color: white;
       text-align: left;
       width: 200px;
       border-style: solid;
-
 }
-/*--------------------------------------------------------*/
 
-
+background {
+    background-color: red;
+}
 
 /*---------------------CONTACT MENU-------------------------*/
 .menu {
@@ -92,9 +86,9 @@ aside {
 }
 
 .contactform { 
-    background-color: black;
+    background-color: darkred;
 }
-/*--------------------------------------------------------*/
+
 
 
 
