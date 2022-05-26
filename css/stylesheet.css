@@ -7,13 +7,13 @@
 /*--------------------------------------------------------*/
 
 html {
-    background-color: tan;
+    background-color: white;
 }
 
 
 /*-------------------HEADER SECTION----------------------*/
 .header {
-  background-color: darkred;
+  background-color: black;
   color: white;
   text-align: left;
   padding: 20px;
@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-    background-color: darkred;
+    background-color: gray;
     color: white;
     text-align: left;
     
@@ -29,14 +29,14 @@ h1 {
 
 
 h2 {
-    background-color: darkred;
+    background-color: gray;
     color: white; 
     text-align: left;
     width: 200px;
 }
 
 .topnav { 
-    background-color: darkred;
+    background-color: gray;
     overflow: hidden;
     text-align: left;
     color: white;
@@ -51,7 +51,7 @@ article {
     width: 400px;
 }
 h4 {
-    background-color: darkred;
+    background-color: gray;
     color: white;
     text-align: left;
     width: 400px;
@@ -59,13 +59,13 @@ h4 {
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: darkred;
+    background-color: gray;
     color: white;
    
 }
 
 background {
-    background-color: red;
+    background-color: gray;
 }
 /*----------------------------------------------------------*/
 
@@ -92,7 +92,7 @@ aside {
 }
 
 .contactform { 
-    background-color: darkred;
+    background-color: black;
 }
 /*--------------------------------------------------------*/
 
