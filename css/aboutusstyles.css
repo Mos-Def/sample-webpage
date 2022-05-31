@@ -1,0 +1,104 @@
+/*-------------------FULL PAGE-------------------------*/
+
+html {
+    background-color: white;
+}
+
+background {
+    background-color: white;
+}
+/*-------------------HEADER SECTION----------------------*/
+
+/*---Head---*/
+.header {
+  background-color: yellow;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  text-decoration: underline solid white 5px;
+}
+
+/*---Logo--*/
+.logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/*---H1,H2,H3,H4,H5,H6---*/
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    
+}
+
+h2 {
+    background-color: black;
+    color: white; 
+    text-align: left;
+    width: 200px;
+}
+
+h4 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    width: auto;
+}
+
+/*----Navigation---*/
+.topnav { 
+    background-color: black;
+    overflow: hidden;
+    text-align: left;
+    color: white;
+    width: auto;
+}
+
+/*---Anchor(Links)---*/
+.navlink { 
+    color: white;
+    border: dotted 1px white;
+    text-align: center;
+}
+
+a { 
+    color: blue;
+    
+}
+
+/*---------------------BODY--------------------------------*/
+b {
+    background-color: black;
+    color: white;
+   
+}
+
+article { 
+    text-align: left;
+    width: 400px;
+}
+
+aside {
+      background-color: black;
+      color: white;
+      text-align: left;
+      width: 200px;
+      border-style: solid;
+      float: left;
+}
+
+/*---------------------CONTACT MENU-------------------------*/
+.menu {
+    border-style: double;
+}
+
+.contactform { 
+    background-color: black;
+}
+
+
+
+
+
