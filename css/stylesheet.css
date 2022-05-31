@@ -59,7 +59,7 @@ h4 {
 /*---Anchor(Links)---*/
 .navlink { 
     color: white;
-    border: dotted 1px white;
+    border: solid 1px white;
     text-align: center;
 }
 
