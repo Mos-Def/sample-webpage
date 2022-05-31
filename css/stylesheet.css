@@ -33,6 +33,10 @@ h1 {
     
 }
 
+.welcomebar {
+    width: 500px;
+
+}
 h2 {
     background-color: black;
     color: white; 
