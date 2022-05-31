@@ -35,13 +35,14 @@ h1 {
 
 .welcomebar {
     width: 500px;
+    float: left;
 
 }
 h2 {
     background-color: black;
     color: white; 
     text-align: left;
-    width: 200px;
+    width: 400px;
 }
 
 h4 {
