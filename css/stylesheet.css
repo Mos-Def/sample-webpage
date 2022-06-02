@@ -77,12 +77,13 @@ h4 {
 /*---Anchor(Links)---*/
 .navlink { 
     color: white;
-    border: solid 1px white;
+    border: solid 1px black;
     text-align: center;
 }
 
 a { 
-    color: blue;
+    background-color: black;
+    color: black;
     
 }
 
