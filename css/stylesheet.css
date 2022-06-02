@@ -61,6 +61,19 @@ h4 {
     width: auto;
 }
 
+.homebutton {
+	color: white;
+}
+
+.aboutbutton { 
+	color: white;
+}
+
+.contactbutton {
+	color: white;
+}
+
+
 /*---Anchor(Links)---*/
 .navlink { 
     color: white;
