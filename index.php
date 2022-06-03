@@ -75,7 +75,8 @@
                    <textarea name="message" placeholder="message"></textarea> 
                      <button type="submit" name="submit">SEND MAIL</button>
                 </form>
-                 <?php
+                 </div>
+ <?php
 
 if (isset($_POST['submit'])) {
   $name = $_POST['name'];
@@ -90,8 +91,7 @@ if (isset($_POST['submit'])) {
   mail($mailTo, $subject, $txt, $headers);
   header("Location: index.php?mailsend");
 }
-
-                </div>
+?>
                 <div style="border :1px solid-black;">
                   <address>Contact info
                    Social media info</address>
