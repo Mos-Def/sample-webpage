@@ -1,101 +1,95 @@
+/*---ABOUT US PAGE STYLES------------------aboutusstyles.css------*/
+
+
 /*-------------------FULL PAGE-------------------------*/
 
 html {
-    background-color: white;
+    background-color: ;
 }
 
 background {
-    background-color: white;
+    background-color: ;
 }
 /*-------------------HEADER SECTION----------------------*/
 
 /*---Head---*/
 .header {
-  background-color: yellow;
-  color: white;
-  text-align: left;
-  padding: 20px;
-  text-decoration: underline solid white 5px;
+  background-color: ;
+  color: ;
+  text-align: ;
+  padding: ;
+  text-decoration: ;
 }
 
 /*---Logo--*/
 .logo {
-    width: 200px;
-    height: 200px;
-    float: left;
+    width: ;
+    height: ;
+    float: ;
 }
 
 /*---H1,H2,H3,H4,H5,H6---*/
 h1 {
-    background-color: black;
-    color: white;
-    text-align: left;
+    background-color: ;
+    color: ;
+    text-align: ;
     
 }
 
 h2 {
-    background-color: black;
-    color: white; 
-    text-align: left;
-    width: 200px;
+    background-color: ;
+    color: ; 
+    text-align: ;
+    width: ;
 }
 
 h4 {
-    background-color: black;
-    color: white;
-    text-align: left;
-    width: auto;
+    background-color: ;
+    color: ;
+    text-align: ;
+    width: ;
 }
 
 /*----Navigation---*/
 .topnav { 
-    background-color: black;
-    overflow: hidden;
-    text-align: left;
-    color: white;
-    width: auto;
+    background-color: ;
+    overflow: ;
+    text-align: ;
+    color: ;
+    width: ;
 }
 
 /*---Anchor(Links)---*/
 .navlink { 
-    color: white;
-    border: dotted 1px white;
-    text-align: center;
+    color: ;
+    border: ;
+    text-align: ;
 }
 
 a { 
-    color: blue;
+    color: ;
     
 }
 
 /*---------------------BODY--------------------------------*/
 b {
-    background-color: black;
-    color: white;
+    background-color: ;
+    color: ;
    
 }
 
 article { 
-    text-align: left;
-    width: 400px;
+    text-align: ;
+    width: ;
 }
 
 aside {
-      background-color: black;
-      color: white;
-      text-align: left;
-      width: 200px;
-      border-style: solid;
-      float: left;
-}
-
-/*---------------------CONTACT MENU-------------------------*/
-.menu {
-    border-style: double;
-}
-
-.contactform { 
-    background-color: black;
+      background-color: ;
+      color: ;
+      text-align: ;
+      width: ;
+      border-style: ;
+      float: ;
 }
 
 
