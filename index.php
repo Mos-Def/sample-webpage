@@ -14,15 +14,9 @@
       </div>
         <nav>
          <div style="border :1px solid white;"  class="topnav">
-	    <button class="homebutton" style="background-color: black;" type="link">
 	      <a href="#" class="navlink">Home</a>
-	    </button>
-	    <button class ="aboutbutton" style="background-color: black;" type="link">
-              <a href="#" class="navlink">About us</a>
-        </button>
-        <button class="contactbutton"  style="background-color: black;" type="link">
-              <a href="#" class="navlink">Contact</a>
-        </button>
+          <a href="#" class="navlink">About us</a>
+          <a href="#" class="navlink">Contact</a>
          </div>
        </nav>
        <img src="img/company-logo.png" alt="Company logo" class="logo" style="max-width:100%;height:auto;">
@@ -62,21 +56,20 @@
            </main>
              <ul>
                <li><a href="yourpagehere.com">Link</a></li>
-               <li><a href="anotherpage.com">Link 2</a></li>
-               <li><a href="yetanotherpage.com">Link 3</a></li>
             </ul>
              <footer>
                <p><b>SEND E-MAIL</b></p>
                <div class="contactform" style="border :1px solid black;">
-               <form class="contact-form" action="php/contactform.php" method="post">
-                 <input type="text" name="name" placeholder="Full name">
-                 <input type="text" name="mail" placeholder="Your e-mail">
-                 <input type="text" name="subject" placeholder="Subject">
+                 <form class="contact-form" action="php/contactform.php" method="post">
+                   <input type="text" name="name" placeholder="Full name">
+                   <input type="text" name="mail" placeholder="Your e-mail">
+                   <input type="text" name="subject" placeholder="Subject">
                    <textarea name="message" placeholder="message"></textarea> 
-                     <button type="submit" name="submit">SEND MAIL</button>
-                </form>
-                 </div>
- <?php
+                   <button type="submit" name="submit">SEND MAIL</button>
+                 </form>
+              </div>
+              <script>
+		      <?php
 
 if (isset($_POST['submit'])) {
   $name = $_POST['name'];
@@ -91,7 +84,9 @@ if (isset($_POST['submit'])) {
   mail($mailTo, $subject, $txt, $headers);
   header("Location: index.php?mailsend");
 }
-?>
+                     ?>
+		     </script>
+		     
                 <div style="border :1px solid-black;">
                   <address>Contact info
                    Social media info</address>
