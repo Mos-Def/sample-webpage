@@ -10,10 +10,10 @@
     <body>
       <header>
       <div class="header">
-      <large><h1>Header</h1></large>
+      <h1>Header</h1>
       </div>
         <nav>
-         <div style="border :1px solid white;"  class="topnav">
+         <div style="border :1px solid white;"  class="topnav" />
 	      <a href="#" class="navlink">Home</a>
           <a href="#" class="navlink">About us</a>
           <a href="#" class="navlink">Contact</a>
@@ -23,12 +23,10 @@
        </header>
          <div class ="aside">
          <aside>
-           <small>
              <h3>Testimony</h3>
                <blockquote>
                  <em>"Happy customer"</em>
                </blockquote>
-            </small>
          </aside>
          </div>
            <main>
@@ -46,20 +44,24 @@
                  Maecenas in lacinia lorem. Ut egestas leo arcu, a convallis velit tempus vitae. Nullam at rhoncus urna. 
                Pellentesque varius sagittis venenatis. Suspendisse sit amet facilisis enim. Integer nec lorem neque. Aenean eget neque nisi. 
               </section>
-                <article>
+		<figure>
+	          <figcaption>Article's Title</figcaption>
+                  <article>
                   <h4>Article</h4>
-                  <p>Praesent eu lorem convallis, gravida nisi id, pulvinar nisl. Pellentesque mattis bibendum tortor, id laoreet arcu molestie ut. 
-                  Donec facilisis libero ac nisi sodales pretium. Nullam sit amet justo nibh. Integer gravida eget enim sit amet malesuada. 
-                 Suspendisse potenti. Morbi malesuada turpis et massa luctus, et eleifend purus lobortis.</p>
-               </article>
-                  <cite>samplecite</cite>  
+                    <p>Praesent eu lorem convallis, gravida nisi id, pulvinar nisl. Pellentesque mattis bibendum tortor, id laoreet arcu molestie ut. 
+                    Donec facilisis libero ac nisi sodales pretium. Nullam sit amet justo nibh. Integer gravida eget enim sit amet malesuada. 
+                   Suspendisse potenti. Morbi malesuada turpis et massa luctus, et eleifend purus lobortis.</p>
+                  </article>
+                    <cite>samplecite</cite>
+	       </figure>
            </main>
              <ul>
                <li><a href="yourpagehere.com">Link</a></li>
             </ul>
              <footer>
+               <figure>
                <p><b>SEND E-MAIL</b></p>
-               <div class="contactform" style="border :1px solid black;">
+               <div class="contactform" style="border :1px black;">
                  <form class="contact-form" action="php/contactform.php" method="post">
                    <input type="text" name="name" placeholder="Full name">
                    <input type="text" name="mail" placeholder="Your e-mail">
@@ -68,7 +70,9 @@
                    <button type="submit" name="submit">SEND MAIL</button>
                  </form>
               </div>
-              <script>
+              <div style="border :1px black;">
+
+                      <script>
 		      <?php
 
 if (isset($_POST['submit'])) {
@@ -86,13 +90,11 @@ if (isset($_POST['submit'])) {
 }
                      ?>
 		     </script>
-		     
-                <div style="border :1px solid-black;">
-                  <address>Contact info
-                   Social media info</address>
-                </div>
+
+ <address>Contact info
+                 Social media info</address>
+             </div>
+	        </figure>
               </footer>
     </body>
-
 </html>
-
