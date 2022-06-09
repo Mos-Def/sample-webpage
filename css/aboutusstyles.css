@@ -1,98 +1,14 @@
-/*---ABOUT US PAGE STYLES------------------aboutusstyles.css---*/
-
-
-/*-------------------FULL PAGE-------------------------*/
-
-html {
-    background-color: ;
-}
-
-background {
-    background-color: ;
-}
-/*-------------------HEADER SECTION----------------------*/
-
-/*---Head---*/
 .header {
-  background-color: ;
-  color: ;
-  text-align: ;
-  padding: ;
-  text-decoration: ;
+    float: left;
+    text-align: left;
+    color: white;
+    background-color: black;
+    border: solid 1px white;
 }
 
-/*---Logo--*/
-.logo {
-    width: ;
-    height: ;
-    float: ;
+.main {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: dotted 2px white;
 }
-
-/*---H1,H2,H3,H4,H5,H6---*/
-h1 {
-    background-color: ;
-    color: ;
-    text-align: ;
-    
-}
-
-h2 {
-    background-color: ;
-    color: ; 
-    text-align: ;
-    width: ;
-}
-
-h4 {
-    background-color: ;
-    color: ;
-    text-align: ;
-    width: ;
-}
-
-/*----Navigation---*/
-.topnav { 
-    background-color: ;
-    overflow: ;
-    text-align: ;
-    color: ;
-    width: ;
-}
-
-/*---Anchor(Links)---*/
-.navlink { 
-    color: ;
-    border: ;
-    text-align: ;
-}
-
-a { 
-    color: ;
-    
-}
-
-/*---------------------BODY--------------------------------*/
-b {
-    background-color: ;
-    color: ;
-   
-}
-
-article { 
-    text-align: ;
-    width: ;
-}
-
-aside {
-      background-color: ;
-      color: ;
-      text-align: ;
-      width: ;
-      border-style: ;
-      float: ;
-}
-
-
-
-
-
