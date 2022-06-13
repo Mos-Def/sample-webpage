@@ -1,12 +1,13 @@
-/*---MAIN PAGE STYLE SHEET-------------stylesheet.css---*/
-
+/*-MAIN-PAGE-STYLESHEET-------------stylesheet.css---*/
 
 /*-------------------FULL PAGE-------------------------*/
 
+/*---HTML-FULL-PAGE---*/
 html {
     background-color: white;
 }
 
+/*?*/
 background {
     background-color: white;
 }
@@ -27,20 +28,19 @@ background {
     height: 200px;
     float: left;
 }
+/*---WelcomeBar---*/
+.welcomebar {
+    width: 500px;
+    float: left;
+}
 
 /*---H1,H2,H3,H4,H5,H6---*/
 h1 {
     background-color: black;
     color: white;
     text-align: left;
-    
 }
 
-.welcomebar {
-    width: 500px;
-    float: left;
-
-}
 h2 {
     background-color: black;
     color: white; 
@@ -74,7 +74,6 @@ h4 {
 a { 
     background-color: black;
     color: black;
-    
 }
 
 /*---------------------BODY--------------------------------*/
@@ -98,7 +97,7 @@ aside {
       float: left;
 }
 
-/*---------------------CONTACT MENU-------------------------*/
+/*---------------------CONTACT PAGE-------------------------*/
 .menu {
     border-style: double;
 }
@@ -108,6 +107,33 @@ aside {
 }
 
 
+/*-------------------MISC.-------------------------------*/
+
+/*---Loaders---*/
+.loader {
+  width: 150px; /* control the size */
+  aspect-ratio: 1;
+  display: grid;
+  mask: conic-gradient(from 22deg, #0003, #000);
+  animation: load 1s steps(8) infinite;
+}
+
+.loader,
+.loader:before {
+  --_g: linear-gradient(#17177c 0 0) 50%; /* update the color here */
+  background: 
+    var(--_g)/34% 8%  space no-repeat,
+    var(--_g)/8%  34% no-repeat space;
+}
+
+.loader:before {
+  content: "";
+  transform: rotate(45deg);
+}
+
+@keyframes load {
+  to { transform: rotate(1turn); }
+}
 
 
 
