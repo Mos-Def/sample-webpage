@@ -1,6 +1,3 @@
-
-
-
 .header {
     float: left;
     text-align: left;
@@ -9,9 +6,39 @@
     border: solid 1px white;
 }
 
+h1 { 
+	text-align: left;
+	color: white;
+	background-color: black;
+}
+
+h2 { 
+	text-align: left;
+	color: white;
+	background-color: black;
+}
+
+.aboutusnav {
+	text-align: left;
+	color: black;
+	background-color: gray;
+	border: solid 1px white;
+}
+
 .main {
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: gray;
     border: dotted 2px white;
+}
+
+p { 
+	text-align: center;       
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: gray;
+	border: solid 1px white;
 }
