@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
   </script>
    <p><b>SEND E-MAIL</b></p>
                  <div class="contactform" style="border :1px solid black;">
-                   <form class="contact-form" action="php/contactform.php" method="post">
+                   <form class="contact-form" action="php/contactform.php" meth                         od="post">
                        <input type="text" name="name" placeholder="Full name">
                        <input type="text" name="mail" placeholder="Your e-mail">
                        <input type="text" name="subject" placeholder="Subject">
