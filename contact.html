@@ -8,24 +8,24 @@
 <body>
   <h1><b>Contact us!</b></h1>
   <p><em>Inquire about questions, make requests, or just sign up for our email newsletter!</em></p>
-  <script>
-<?php
-if (isset($_POST['submit'])) {
-  $name = $_POST['name'];
-  $subject = $_POST['subject'];
-  $mailFrom = $_POST['mail'];
-  $message = $_POST['message'];
 
-  $mailTo = "r.d.siegs@protonmail.com";
-  $headers = "From: ".$mailFrom;
-  $txt = "You have received an e-mail from ".$name.".\n\n".$message;
+  <?php
+    if (isset($_POST['submit'])) {
+      $name = $_POST['name'];
+      $subject = $_POST['subject'];
+      $mailFrom = $_POST['mail'];
+      $message = $_POST['message'];
 
-  mail($mailTo, $subject, $txt, $headers);
-  header("Location: index.php?mailsend");
-}
-?>
-  </script>
-   <p><b>SEND E-MAIL</b></p>
+      $mailTo = "r.d.siegs@protonmail.com";
+      $headers = "From: ".$mailFrom;
+      $txt = "You have received an e-mail from ".$name.".\n\n".$message;
+
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: index.php?mailsend");
+    }
+  ?>
+  
+<p><b>SEND E-MAIL</b></p>
                  <div class="contactform" style="border :1px solid black;">
                    <form class="contact-form" action="php/contactform.php" meth                         od="post">
                        <input type="text" name="name" placeholder="Full name">
@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
             <small>
               Copyright Company Inc
                               2022
-              </small>
+            </small>
           </footer>
   </body>
-</html>
+</html> 
